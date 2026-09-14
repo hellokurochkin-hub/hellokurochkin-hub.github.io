@@ -1,0 +1,27 @@
+/* Figma 8geB6YKS0cTc6Xcl4MF41c, node 14091:109414.
+   Original names and resolved values: figma-tokens.json. */
+@font-face{font-family:'YS Text';src:url('assets/fonts/ys-text-regular.ttf') format('truetype');font-style:normal;font-weight:400;font-display:swap}
+@font-face{font-family:'YS Text';src:url('assets/fonts/ys-text-medium.ttf') format('truetype');font-style:normal;font-weight:500;font-display:swap}
+@font-face{font-family:'YS Text';src:url('assets/fonts/ys-text-bold.ttf') format('truetype');font-style:normal;font-weight:700;font-display:swap}
+@font-face{font-family:'YS Compressed Var';src:url('assets/fonts/ys-compressed-variable.ttf') format('truetype');font-weight:100 1000;font-style:normal;font-display:swap}
+:root{
+  --font-family-ys-text:'YS Text',Arial,sans-serif;--font-family-ys-compressed-var:'YS Compressed Var',sans-serif;
+  --font-size-text:13px;--line-height-text:14px;--letter-spacing-ys-text-text:0px;
+  --font-weight-regular:400;--font-weight-medium:500;--font-weight-bold:700;
+  --font-size-headline-5:20px;--line-height-headline-5:22px;--letter-spacing-headline-5:-.2px;
+  --font-size-small-text-1:11px;--line-height-small-text-1:12px;
+  --font-size-badge:11px;--line-height-badge:12px;--font-weight-semiheavy:780;--letter-spacing-compressed-badge:.38px;
+  --basic-background-bg-primary:#fff;--basic-background-bg-secondary:#f5f3f1;
+  --basic-content-text-primary:#191817;--basic-content-text-secondary:#1d191382;
+  --basic-content-text-invert-primary:#fff;--basic-content-text-success:#12993b;
+  --basic-control-control-primary:#ffdd00;--basic-control-control-secondary:#442d0d14;
+  --basic-border-divider-border-primary:#31220c28;--basic-border-divider-divider-card:#f5f3f1;
+  --basic-system-pullindicator:#dedbd7;--basic-system-tab-inactive:#c2bfbc;
+  --experiments-snippet-bg-secondary-static-exp:#faf8f7;
+  --experiments-badge-background-redsale-primary:#ff5e36;--basic-background-bg-sale:#fa3e2c;
+  /* Explicit fills of the green variants; these two fills are not variable-bound. */
+  --progress-bg-success:#ebf6f1;--progress-track-success:#bce2d2;
+  --shadow-topday-far:0 -4px 20px #0000000f,0 -2px 10px #0000000f,0 0 1px #0000001a;
+  --progress-radius:20px;--progress-height:28px;--progress-line-height:4px;
+  --progress-inset:8px;--progress-gap:4px;--progress-icon-size:20px;
+}
