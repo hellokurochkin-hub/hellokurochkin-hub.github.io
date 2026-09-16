@@ -4,7 +4,7 @@
 body{background-color:#000;background-image:radial-gradient(circle,rgba(255,255,255,.15) 2px,transparent 2px);background-size:30px 30px}
 .workspace{min-height:100svh;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:16px;padding:16px}
 .device-space{position:relative;width:calc(409px * var(--device-scale));height:calc(868px * var(--device-scale));flex:none}
-.device{width:409px;height:868px;position:absolute;transform:scale(var(--device-scale));transform-origin:top left;border:8px solid #000;border-radius:63px;background:#000;box-shadow:0 0 0 1px #ffffff18}
+.device{width:409px;height:868px;position:absolute;transform:scale(var(--device-scale));transform-origin:top left;border:8px solid #3a3a3c;border-radius:63px;background:#3a3a3c;box-shadow:0 0 0 1px #ffffff18}
 .viewport{position:relative;display:flex;flex-direction:column;isolation:isolate;width:393px;height:852px;border-radius:55px;overflow:hidden;background:var(--bar)}
 .status-bar{height:54px;flex:none;position:relative;background:var(--bar)}
 .status-time{position:absolute;left:0;top:0;width:138px;height:54px}
