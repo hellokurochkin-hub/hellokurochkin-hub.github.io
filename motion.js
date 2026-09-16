@@ -1,0 +1,38 @@
+// Absolute times in milliseconds. Every settled design has a 3000 ms hold.
+export const MOTION = [
+  ['.fill-499','transform',[[0,'scaleX(0.2575107296)'],[3000,'scaleX(0.2575107296)'],[4100,'scaleX(1)']]],
+  ['.fee-499','left',[[0,'28px'],[4100,'28px'],[4800,'-129.5px']]],
+  ['.fee-499','opacity',[[0,1],[4100,1],[4650,0]]],
+  ['.track-499','left',[[0,'65px'],[4100,'65px'],[4800,'-92.5px']]],
+  ['.track-499','opacity',[[0,1],[4100,1],[4650,0]]],
+  ['.fee-299','left',[[0,'185.5px'],[4100,'185.5px'],[4800,'28px'],[8900,'28px'],[9600,'-137px']]],
+  ['.fee-299','color',[[0,'secondary'],[4100,'secondary'],[4800,'ink']]],
+  ['.fee-299','opacity',[[0,1],[8900,1],[9450,0]]],
+  ['.track-299','left',[[0,'230.5px'],[4100,'230.5px'],[4800,'65px'],[8900,'65px'],[9600,'-100px']]],
+  ['.track-299','width',[[0,'116.5px'],[4100,'116.5px'],[4800,'124px']]],
+  ['.track-299','opacity',[[0,1],[8900,1],[9450,0]]],
+  ['.fill-299','transform',[[0,'scaleX(0)'],[4100,'scaleX(0)'],[4800,'scaleX(0.2419354839)'],[7800,'scaleX(0.2419354839)'],[8900,'scaleX(1)']]],
+  ['.track-dot','opacity',[[0,1],[4100,1],[4550,0]]],
+  ['.fee-99','left',[[0,'222.5px'],[4100,'222.5px'],[4800,'193px'],[8900,'193px'],[9600,'28px']]],
+  ['.fee-99','opacity',[[0,0],[4250,0],[4800,1]]],
+  ['.fee-99','color',[[0,'secondary'],[8900,'secondary'],[9600,'ink'],[18400,'ink'],[18800,'green']]],
+  ['.track-99','left',[[0,'260px'],[4100,'260px'],[4800,'223px'],[8900,'223px'],[9600,'58px']]],
+  ['.track-99','width',[[0,'87px'],[4100,'87px'],[4800,'124px'],[8900,'124px'],[9600,'289px']]],
+  ['.track-99','opacity',[[0,0],[4250,0],[4800,1]]],
+  ['.fill-99','transform',[[0,'scaleX(0)'],[12600,'scaleX(0)'],[14200,'scaleX(0.4152249135)'],[17200,'scaleX(0.4152249135)'],[18600,'scaleX(1)']]],
+  ['.fill-99','backgroundColor',[[0,'ink'],[18400,'ink'],[18800,'green']]],
+  ['.track-99','backgroundColor',[[0,'rail'],[18400,'rail'],[18800,'successRail']]],
+  ['.fee-0','color',[[0,'secondary'],[18400,'secondary'],[18800,'green']]],
+  ['.courier','backgroundColor',[[0,'ink'],[18400,'ink'],[18800,'green']]],
+  ['.delivery-bar','backgroundColor',[[0,'bar'],[18400,'bar'],[18800,'success']]],
+  ['.paid-content','opacity',[[0,1],[18700,1],[19000,0]]],
+  ['.delivery-bar','width',[[0,'377px'],[18850,'377px'],[19600,'167px']]],
+  ['.free-label','opacity',[[0,0],[19200,0],[19600,1]]],
+];
+
+export const TEXT_FADES = Object.freeze([
+  [4200,4800],
+  [9000,9600],
+  [13600,14200],
+  [18800,19400],
+]);

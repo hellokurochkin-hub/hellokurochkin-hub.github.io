@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#f5f5f5">
+  <meta name="theme-color" content="#000000">
   <meta name="description" content="Анимация пяти состояний градусника доставки Лавки по макетам Figma.">
   <title>Лавка · Прогресс доставки</title>
   <link rel="preload" href="assets/fonts/ys-text-regular.ttf" as="font" type="font/ttf" crossorigin>
@@ -20,32 +20,35 @@
           <div class="status-bar" aria-hidden="true"><img class="status-time" src="assets/time.svg" width="138" height="54" alt=""><span class="dynamic-island"></span><img class="status-levels" src="assets/status.svg" width="143" height="54" alt=""></div>
           <div class="screen-placeholder" aria-hidden="true" data-node-id="14100:112194"></div>
         <div class="dock">
-          <div class="delivery" data-node-id="14112:126525" aria-label="Прогресс до бесплатной доставки">
-            <div class="delivery-bar" data-stage="0" data-phase="paid" aria-hidden="true">
+          <div class="delivery" id="delivery-animation" data-node-id="14112:126525" aria-label="Прогресс до бесплатной доставки">
+            <div class="delivery-bar" aria-hidden="true">
               <span class="courier"><img src="assets/courier.svg" alt="" width="14" height="14"></span>
               <div class="paid-content">
-                <span class="price current-price"><span class="price-value">499</span><span>₽</span></span>
-                <span class="track first-track"><span class="fill"></span></span>
-                <span class="price next-price"><span class="price-value">299</span><span>₽</span></span>
+                <span class="price fee-499"><span>499</span><span>₽</span></span>
+                <span class="track track-499"><span class="fill fill-499"></span></span>
+                <span class="price fee-299"><span>299</span><span>₽</span></span>
+                <span class="track track-299"><span class="fill fill-299"></span></span>
                 <span class="track-dot"></span>
-                <span class="track last-track"></span>
-                <span class="price end-price"><span>0</span><span>₽</span></span>
+                <span class="price fee-99"><span>99</span><span>₽</span></span>
+                <span class="track track-99"><span class="fill fill-99"></span></span>
+                <span class="price fee-0"><span>0</span><span>₽</span></span>
               </div>
               <span class="free-label">Бесплатная доставка</span>
             </div>
-            <p class="delivery-caption">Ещё 621  ₽ и доставка дешевле </p>
+            <p class="delivery-caption" aria-hidden="true"></p>
             <span class="sr-only" id="delivery-status" role="status" aria-live="polite">Доставка 499 ₽. Ещё 621 ₽ и доставка дешевле.</span>
           </div>
           <nav class="shop-nav" aria-hidden="true">
             <span class="nav-icon active"><img src="assets/shop.svg" width="24" height="24" alt=""></span>
             <span class="favorite-static" aria-hidden="true"><img src="assets/heart.svg" width="24" height="24" alt=""></span>
-            <span class="nav-icon basket-icon"><img src="assets/basket.svg" width="24" height="24" alt=""><span class="basket-count">2</span></span>
+            <span class="nav-icon basket-icon"><img src="assets/basket.svg" width="24" height="24" alt=""><span class="basket-count"></span></span>
           </nav>
           <div class="home-indicator" aria-hidden="true"><span></span></div>
         </div>
         </div>
       </div>
     </div>
+    <button class="playback-toggle" id="playback-toggle" type="button" aria-controls="delivery-animation" aria-pressed="false" disabled>&#1055;&#1072;&#1091;&#1079;&#1072;</button>
   </main>
 </body>
 </html>
